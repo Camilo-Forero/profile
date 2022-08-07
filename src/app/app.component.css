@@ -1,0 +1,1335 @@
+/*--begin globalcontrols--*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Erase any existing margin or padding.
+@return: none
+*/
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: set on 100 percent the body and html.
+@return: none
+*/
+
+html, body
+{
+	width:100%;
+	height:100%;
+}
+/*--end globalcontrols--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin background color--*/
+
+.corporativeColorGreen
+{
+	background-color: #00cccc;
+}
+
+.corporativeColorWhitePurple
+{
+	background-color: #e6e6ff;
+}
+
+.corporativeColorWhite
+{
+	background-color: white;
+}
+
+.colorGreen
+{
+	background-color: green;	
+}
+
+.corporativeColorRedWarning
+{
+	background-color: #a22e2e;
+}
+
+/*--end background color--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin font color--*/
+
+.fontCorporativeColorGreen
+{
+	color: #00cccc;
+}
+
+.fontColorWhite
+{
+	color: white;
+}
+
+.fontCorporativeColorRedWarning
+{
+	color: #a22e2e;
+}
+/*--end font color--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin floats--*/
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+/*--end floats--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin rows--*/
+.mainContainer
+{
+	/*height: 46.91em;*/
+	height: 100%;
+}
+
+.rowContainerNoneHeight
+{
+	width: 100%;
+}
+
+.rowContainer1
+{
+	height:100%;
+	width: 100%;
+}
+
+.rowContainer2
+{
+	height:50%;
+	width: 100%;
+}
+
+.rowContainer3
+{
+	height:33.3%;
+	width: 100%;
+}
+
+.rowContainer4
+{
+	height:25%;
+	width: 100%;
+}
+
+.rowContainer5
+{
+	height:20%;
+	width: 100%;
+}
+
+.rowContainer10
+{
+	height:10%;
+	width: 100%;
+}
+
+.rowContainer6Half
+{
+	height: 66.7%;
+}
+
+.rowContainer8Half
+{
+	height: 80%;
+}
+
+.rowContainer7Half
+{
+	height: 75%;
+}
+
+.rowContainer9Half
+{
+	height: 90%;
+}
+/*--end rows--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin widths--*/
+.width5
+{
+	width: 5%;
+}
+
+.width10
+{
+	width: 10%;
+}
+
+.width15
+{
+	width: 15%;
+}
+
+.width20
+{
+	width: 20%;
+}
+
+.width30
+{
+	width: 30%;
+}
+
+.width40
+{
+	width: 40%;
+}
+
+.width50
+{
+	width: 50%;
+}
+
+.width60
+{
+	width: 60%;
+}
+
+.width70
+{
+	width: 70%;
+}
+
+.width80
+{
+	width: 80%;
+}
+
+.width90
+{
+	width: 90%;
+}
+
+.width100
+{
+	width: 100%;
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin heights--*/
+.height5
+{
+	height: 5%;
+}
+
+.height10
+{
+	height: 10%;
+}
+
+.height20
+{
+	height: 20%;
+}
+
+.height25
+{
+	height: 25%;
+}
+
+.height30
+{
+	height: 30%;
+}
+
+.height40
+{
+	height: 40%;
+}
+
+.height50
+{
+	height: 50%;
+}
+
+.height60
+{
+	height: 60%;
+}
+
+.height70
+{
+	height: 70%;
+}
+
+.height80
+{
+	height: 80%;
+}
+
+.height90
+{
+	height: 90%;
+}
+
+.height100
+{
+	height: 100%;
+}
+/*--end heights--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin grid--*/
+.displayGrid
+{
+	display: grid;
+	height: 100%;
+	width: 100%
+}
+/*--end grid--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin gridgap--*/
+.gridGap1
+{
+	grid-gap:1px;
+}
+
+.gridGap2
+{
+	grid-gap:2px;
+}
+
+.gridGap3
+{
+	grid-gap:3px;
+}
+
+.gridGap4
+{
+	grid-gap:4px;
+}
+
+.gridGap5
+{
+	grid-gap:5px;
+}
+
+.gridGap6
+{
+	grid-gap:6px;
+}
+
+.gridGap7
+{
+	grid-gap:7px;
+}
+
+.gridGap8
+{
+	grid-gap:8px;
+}
+
+.gridGap9
+{
+	grid-gap:9px;
+}
+
+.gridGap10
+{
+	grid-gap:10px;
+}
+/*--end gridgap--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin column--*/
+.basicColumn1
+{
+	grid-template-columns: 1fr;
+}
+
+.basicColumn2
+{
+	grid-template-columns: 1fr 1fr;
+}
+
+.basicColumn3
+{
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.basicColumn4
+{
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.basicColumn5
+{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.basicColumn6
+{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+/*--end column--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin z-index--*/
+.index1
+{
+	z-index: 1;
+}
+
+.index2
+{
+	z-index: 2;
+}
+
+.index3
+{
+	z-index: 3;
+}
+
+.index4
+{
+	z-index: 4;
+}
+
+.index5
+{
+	z-index: 5;
+}
+/*--end z-index--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.absolute
+{
+	position: absolute;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.overFlowHidden
+{
+	overflow: hidden;
+}
+
+.borderBox
+{
+	box-sizing: border-box;
+}
+
+.paddingHalf
+{
+	padding: 0.5em;
+}
+
+.padding1
+{
+	padding: 1em;
+}
+
+.padding1Half
+{
+	padding: 1.5em;
+}
+
+.padding2
+{
+	padding: 2em;
+}
+
+.padding2Half
+{
+	padding: 2.5em;
+}
+
+.padding3
+{
+	padding: 3em;
+}
+
+.padding3Half
+{
+	padding: 3.5em;
+}
+
+.padding4
+{
+	padding: 4em;
+}
+
+.padding4Half
+{
+	padding: 4.5em;
+}
+
+.padding5
+{
+	padding: 5em;
+}
+
+.paddingLeftHalf
+{
+	padding-left: 0.5em;
+}
+
+.paddingLeft1
+{
+	padding-left: 1em;
+}
+
+.paddingLeft1Half
+{
+	padding-left: 1.5em;
+}
+
+.paddingLeft2
+{
+	padding-left: 2em;
+}
+
+.paddingLeft2Half
+{
+	padding-left: 2.5em;
+}
+
+.paddingLeft3
+{
+	padding-left: 3em;
+}
+
+.paddingLeft3Half
+{
+	padding-left: 3.5em;
+}
+
+.paddingLeft4
+{
+	padding-left: 4em;
+}
+
+.paddingLeft4Half
+{
+	padding-left: 4.5em;
+}
+
+.paddingLeft5
+{
+	padding-left: 5em;
+}
+
+.paddingRightHalf
+{
+	padding-right: 0.5em;
+}
+
+.paddingRight1
+{
+	padding-right: 1em;
+}
+
+.paddingRight1Half
+{
+	padding-right: 1.5em;
+}
+
+.paddingRight2
+{
+	padding-right: 2em;
+}
+
+.paddingRight2Half
+{
+	padding-right: 2.5em;
+}
+
+.paddingRight3
+{
+	padding-right: 3em;
+}
+
+.paddingRight3Half
+{
+	padding-right: 3.5em;
+}
+
+.paddingRight4
+{
+	padding-right: 4em;
+}
+
+.paddingRight4Half
+{
+	padding-right: 4.5em;
+}
+
+.paddingRight5
+{
+	padding-right: 5em;
+}
+
+.paddingTopHalf
+{
+	padding-top: 0.5em;
+}
+
+.paddingTop1
+{
+	padding-top: 1em;
+}
+
+.paddingTop1Half
+{
+	padding-top: 1.5em;
+}
+
+.paddingTop2
+{
+	padding-top: 2em;
+}
+
+.paddingTop2Half
+{
+	padding-top: 2.5em;
+}
+
+.paddingTop3
+{
+	padding-top: 3em;
+}
+
+.paddingTop3Half
+{
+	padding-top: 3.5em;
+}
+
+.paddingTop4
+{
+	padding-top: 4em;
+}
+
+.paddingTop4Half
+{
+	padding-top: 4.5em;
+}
+
+.paddingTop5
+{
+	padding-top: 5em;
+}
+
+
+.paddingBottomHalf
+{
+	padding-bottom: 0.5em;
+}
+
+.paddingBottom1
+{
+	padding-bottom: 1em;
+}
+
+.paddingBottom1Half
+{
+	padding-bottom: 1.5em;
+}
+
+.paddingBottom2
+{
+	padding-bottom: 2em;
+}
+
+.paddingBottom2Half
+{
+	padding-bottom: 2.5em;
+}
+
+.paddingBottom3
+{
+	padding-bottom: 3em;
+}
+
+.paddingBottom3Half
+{
+	padding-bottom: 3.5em;
+}
+
+.paddingBottom4
+{
+	padding-bottom: 4em;
+}
+
+.paddingBottom4Half
+{
+	padding-bottom: 4.5em;
+}
+
+.paddingBottom5
+{
+	padding-bottom: 5em;
+}
+
+
+.textCenter
+{
+	text-align: center;
+}
+
+.textRight
+{
+	text-align: right;
+}
+
+.textLeft
+{
+	text-align: left;
+}
+
+.textJustify
+{
+	text-align: justify;
+}
+
+.textDecorationNull
+{
+	text-decoration: none;
+}
+
+.upperCase
+{
+	text-transform: uppercase;
+}
+
+.lowerCase
+{
+	text-transform: lowercase;
+}
+
+.capitalize
+{
+	text-transform: capitalize;
+}
+
+.wt
+{
+	width: 45%;
+	height: 75%;
+	background-color: white;
+}
+
+.innerWt
+{
+	width: 90%;
+	height: 70%;
+}
+
+.rotate10
+{
+	transform: rotate(10deg);
+}
+
+.rotate20
+{
+	transform: rotate(20deg);
+}
+
+.rotate30
+{
+	transform: rotate(30deg);
+}
+
+.rotate40
+{
+	transform: rotate(40deg);
+}
+
+.rotate50
+{
+	transform: rotate(50deg);
+}
+
+.rotate60
+{
+	transform: rotate(60deg);
+}
+
+.rotate70
+{
+	transform: rotate(70deg);
+}
+
+.rotate80
+{
+	transform: rotate(80deg);
+}
+
+.rotate90
+{
+	transform: rotate(90deg);
+}
+
+.rotateMinus10
+{
+	transform: rotate(-10deg);
+}
+
+.rotateMinus20
+{
+	transform: rotate(-20deg);
+}
+
+.rotateMinus30
+{
+	transform: rotate(-30deg);
+}
+
+.rotateMinus40
+{
+	transform: rotate(-40deg);
+}
+
+.rotateMinus50
+{
+	transform: rotate(-50deg);
+}
+
+.rotateMinus60
+{
+	transform: rotate(-60deg);
+}
+
+.rotateMinus70
+{
+	transform: rotate(-70deg);
+}
+
+.rotateMinus80
+{
+	transform: rotate(-80deg);
+}
+
+.rotateMinus90
+{
+	transform: rotate(-90deg);
+}
+
+/*----------------------------------------------discrete separator----------------------------------------------*/
+
+.displayFlex
+{
+	display: flex;
+}
+
+.alignContentTopCenter
+{
+	align-items: center;
+}
+
+.contentCenter
+{
+	justify-content: center;
+}
+
+.contentLeft
+{
+	justify-content: flex-start;
+}
+
+.contentRight
+{
+	justify-content: flex-end;
+}
+
+.buttonP
+{
+	width: 30%;
+	height: 50%;
+}
+
+.borderRadius
+{
+	border-radius: 3%;
+}
+
+.borderRadiusHalf
+{
+	border-radius: 50%;
+}
+
+.borderColor
+{
+	border-color: red;
+}
+
+.borderStyle
+{
+	border-style: solid;
+}
+
+.borderStyleBottom
+{
+	border-bottom: solid;
+}
+
+.borderStyleLeft
+{
+	border-left: solid;
+}
+
+.borderStyleRight
+{
+	border-right: solid;
+}
+
+.borderColorRedWarning
+{
+	border-color: #a22e2e;
+}
+
+.borderColorGreen
+{
+	border-color: green;
+}
+
+.borderWidthHalf
+{
+	border-width: 0.5px;
+}
+
+.borderWidth1
+{
+	border-width: 1px;
+}
+
+.borderWidth1Half
+{
+	border-width: 1.5px;
+}
+
+.borderWidth2
+{
+	border-width: 2px;
+}
+
+.borderWidth2Half
+{
+	border-width: 2.5px;
+}
+
+.borderWidth3
+{
+	border-width: 3px;
+}
+
+.borderWidth3Half
+{
+	border-width: 3.5px;
+}
+
+.borderWidth4
+{
+	border-width: 4px;
+}
+
+.borderWidth4Half
+{
+	border-width: 4.5px;
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set the colors and parameters of the main bar.
+@return: none
+*/
+/*--begin mainbar--*/
+.mainBar
+{
+	/*position: fixed;*/
+	width: 100%;
+	height: 3em;
+}
+/*--end mainbar--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set the parameters of the image in main bar.
+@return: none
+*/
+/*--begin mainbaricon--*/
+.mainBarIcon
+{
+	width: 4em;
+	height: 3em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set align center on container.
+@return: none
+*/
+/*--begin containeraligncenter--*/
+.containerAlignCenter
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+/*--end containeraligncenter--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set the container of login.
+@return: none
+*/
+/*--begin logincontainer--*/
+.loginContainer
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color: gray;
+	width: 33%;
+	height: 70%;
+}
+/*--end logincontainer--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: .
+@return: none
+*/
+/*--begin inputtext--*/
+.inputText
+{
+	margin: auto;
+	padding-top: 0.5em; 
+	font-family: caviarDreams;
+	font-size: 1.1em;
+	display: block;
+	width: 90%;
+	height: 30px;
+}
+/*--end inputtext--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin input--*/
+.input
+{
+	margin: auto;
+	font-family: caviarDreams;
+	font-size: 1em;
+	display: block;
+	width: 90%;
+	height: 30px;
+}
+/*--end input--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin button--*/
+.button
+{
+	margin: auto;
+	margin-top: 0.7em;
+	padding-top: 0.5em;
+	font-family: caviarDreams;
+	width: 90%;
+	height: 30px;
+	text-align: center;
+}
+/*--end button--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+
+.crystalize
+{
+	background-color:rgba(54,56,58,0.8);
+}
+
+.fontCaviar
+{
+	font-family: caviarDreams;
+}
+
+.fontSizeHalf1
+{
+	font-size: 0.5em;
+}
+
+.fontSize1
+{
+	font-size: 1em;
+}
+
+.fontSize1Half
+{
+	font-size: 1.5em;
+}
+
+.fontSize2
+{
+	font-size: 2em;
+}
+
+.fontSize2Half
+{
+	font-size: 2.5em;
+}
+
+.fontSize3
+{
+	font-size: 3em;
+}
+
+.fontSize3Half
+{
+	font-size: 3.5em;
+}
+
+.fontSize4
+{
+	font-size: 4em;
+}
+
+.fontSize4Half
+{
+	font-size: 4.5em;
+}
+
+.fontSize5
+{
+	font-size: 5em;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+
+.colorBackgroundHoverCorporativeBlue:hover
+{
+	background-color: rgb(0,168,243);	
+}
+
+.colorFontHoverWhite:hover
+{
+	color: white;	
+}
+
+.colorFontHoverCorporativeBlue:hover
+{
+	color:  rgb(0,168,243);	
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.carousel
+{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel input
+{
+	/*position: absolute;*/
+	/*display: inline-block;*/
+	z-index: 3;
+}
+
+.carousel div
+{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel img
+{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel input::before
+{
+	background-color: red;
+	content: '<';
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.carousel input:checked ~ input::before
+{
+	content: '>';
+}
+
+.carousel input + div 
+{
+  transform: translate3d(-100%,0,0);
+  transition: transform .5s ease-in-out;
+}
+
+.carousel input:checked + div 
+{
+	transform: translate3d(0,0,0);
+}
+
+.carousel input:checked + div ~ div 
+{
+	transform: translate3d(100%,0,0);
+}
+
+.displayNone
+{
+	display: none;
+}
+
+.displayTrue
+{
+	display: true;
+}
+
+.displayHoverHiddenOverFlow:hover
+{
+	overflow: visible;
+}
+
+.visibilityHidden
+{
+	visibility: hidden;
+}
+
+.visibilityVisible
+{
+	visibility: visible;
+}
+
+.displayBlock
+{
+	display: inline-block;
+}
+
+.corporativeWhiteGreen
+{
+	background-color: #71a5a0;
+}
+
+.onloadContainer
+{
+	top:0;
+	z-index: 15;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color:  rgba(0,0,0, 0.6);	
+}
+
+@keyframes aniRotate360 
+{
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(90deg);}
+  50%  {transform: rotate(180deg);}
+  75%  {transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.rotate360 
+{
+  position: relative;
+  animation-name: aniRotate360;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.iconLoadCountBox
+{
+	width: 9em;
+	height: 9em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.top10
+{
+	top: 10%;
+}
+
+.top20
+{
+	top: 20%;
+}
+
+.top25
+{
+	top: 25%;
+}
+
+.top30
+{
+	top: 30%;
+}
+
+.top40
+{
+	top: 40%;
+}
+
+.top50
+{
+	top: 50%;
+}
+
+.top60
+{
+	top: 60%;
+}
+
+.top70
+{
+	top: 70%;
+}
+
+.top80
+{
+	top: 80%;
+}
+
+.top90
+{
+	top: 90%;
+}
+
+.top100
+{
+	top: 100%;
+}
